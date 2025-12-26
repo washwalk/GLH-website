@@ -1,0 +1,32 @@
+{
+  "name": "george-shadow-concerts",
+  "version": "1.0.0",
+  "description": "George Shadow concert scraper and display website",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "george-shadow",
+    "concerts",
+    "music",
+    "scraper"
+  ],
+  "author": "George Hadow",
+  "license": "MIT"
+}
